@@ -9,9 +9,8 @@ usr_input = input("Type anything:\n").split()
 # This solution returns elements in the original order
 unique_instances = []
 for i in usr_input:
-    word = str(i) + ' '
-    if word not in unique_instances:
-        unique_instances.append(word)
+    if i not in unique_instances:
+        unique_instances.append(i)
 
-res = ''.join(unique_instances)
+res = ' '.join(unique_instances)
 print(res)
