@@ -4,7 +4,7 @@ usr_input = input("Type anything:\n").split()
 
 # The solution below doesn't preserve the original order of elements on Python 3.5.2
 # unique_instances = set(usr_input)
-# res = ''.join([str(i)+' ' for i in unique_instances]) 
+# res = ' '.join([str(i) for i in unique_instances]) 
 
 # This solution returns elements in the original order
 unique_instances = []
